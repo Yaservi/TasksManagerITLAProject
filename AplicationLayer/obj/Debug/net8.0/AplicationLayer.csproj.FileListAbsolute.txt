@@ -1,0 +1,15 @@
+C:\Users\yaser\source\repos\TaskManagerProject\AplicationLayer\bin\Debug\net8.0\AplicationLayer.deps.json
+C:\Users\yaser\source\repos\TaskManagerProject\AplicationLayer\bin\Debug\net8.0\AplicationLayer.dll
+C:\Users\yaser\source\repos\TaskManagerProject\AplicationLayer\bin\Debug\net8.0\AplicationLayer.pdb
+C:\Users\yaser\source\repos\TaskManagerProject\AplicationLayer\bin\Debug\net8.0\DomainLayer.dll
+C:\Users\yaser\source\repos\TaskManagerProject\AplicationLayer\bin\Debug\net8.0\DomainLayer.pdb
+C:\Users\yaser\source\repos\TaskManagerProject\AplicationLayer\obj\Debug\net8.0\AplicationLayer.csproj.AssemblyReference.cache
+C:\Users\yaser\source\repos\TaskManagerProject\AplicationLayer\obj\Debug\net8.0\AplicationLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yaser\source\repos\TaskManagerProject\AplicationLayer\obj\Debug\net8.0\AplicationLayer.AssemblyInfoInputs.cache
+C:\Users\yaser\source\repos\TaskManagerProject\AplicationLayer\obj\Debug\net8.0\AplicationLayer.AssemblyInfo.cs
+C:\Users\yaser\source\repos\TaskManagerProject\AplicationLayer\obj\Debug\net8.0\AplicationLayer.csproj.CoreCompileInputs.cache
+C:\Users\yaser\source\repos\TaskManagerProject\AplicationLayer\obj\Debug\net8.0\Aplicati.678D5912.Up2Date
+C:\Users\yaser\source\repos\TaskManagerProject\AplicationLayer\obj\Debug\net8.0\AplicationLayer.dll
+C:\Users\yaser\source\repos\TaskManagerProject\AplicationLayer\obj\Debug\net8.0\refint\AplicationLayer.dll
+C:\Users\yaser\source\repos\TaskManagerProject\AplicationLayer\obj\Debug\net8.0\AplicationLayer.pdb
+C:\Users\yaser\source\repos\TaskManagerProject\AplicationLayer\obj\Debug\net8.0\ref\AplicationLayer.dll
