@@ -10,3 +10,16 @@ C:\Users\yaser\source\repos\TaskManagerProject\DomainLayer\obj\Debug\net8.0\Doma
 C:\Users\yaser\source\repos\TaskManagerProject\DomainLayer\obj\Debug\net8.0\refint\DomainLayer.dll
 C:\Users\yaser\source\repos\TaskManagerProject\DomainLayer\obj\Debug\net8.0\DomainLayer.pdb
 C:\Users\yaser\source\repos\TaskManagerProject\DomainLayer\obj\Debug\net8.0\ref\DomainLayer.dll
+C:\Users\yaser\Desktop\TaskManagerProject\DomainLayer\bin\Debug\net8.0\DomainLayer.deps.json
+C:\Users\yaser\Desktop\TaskManagerProject\DomainLayer\bin\Debug\net8.0\DomainLayer.dll
+C:\Users\yaser\Desktop\TaskManagerProject\DomainLayer\bin\Debug\net8.0\DomainLayer.pdb
+C:\Users\yaser\Desktop\TaskManagerProject\DomainLayer\obj\Debug\net8.0\DomainLayer.csproj.AssemblyReference.cache
+C:\Users\yaser\Desktop\TaskManagerProject\DomainLayer\obj\Debug\net8.0\DomainLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yaser\Desktop\TaskManagerProject\DomainLayer\obj\Debug\net8.0\DomainLayer.AssemblyInfoInputs.cache
+C:\Users\yaser\Desktop\TaskManagerProject\DomainLayer\obj\Debug\net8.0\DomainLayer.AssemblyInfo.cs
+C:\Users\yaser\Desktop\TaskManagerProject\DomainLayer\obj\Debug\net8.0\DomainLayer.csproj.CoreCompileInputs.cache
+C:\Users\yaser\Desktop\TaskManagerProject\DomainLayer\obj\Debug\net8.0\DomainLayer.sourcelink.json
+C:\Users\yaser\Desktop\TaskManagerProject\DomainLayer\obj\Debug\net8.0\DomainLayer.dll
+C:\Users\yaser\Desktop\TaskManagerProject\DomainLayer\obj\Debug\net8.0\refint\DomainLayer.dll
+C:\Users\yaser\Desktop\TaskManagerProject\DomainLayer\obj\Debug\net8.0\DomainLayer.pdb
+C:\Users\yaser\Desktop\TaskManagerProject\DomainLayer\obj\Debug\net8.0\ref\DomainLayer.dll

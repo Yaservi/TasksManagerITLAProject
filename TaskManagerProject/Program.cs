@@ -1,3 +1,4 @@
+using AplicationLayer.Helper;
 using AplicationLayer.Repository.ICommon;
 using AplicationLayer.Service;
 using DomainLayer.Models;
@@ -13,11 +14,13 @@ builder.Services.AddDbContext<TaskDbContext>(options => options.UseSqlServer(bui
 //Add Services
 builder.Services.AddScoped<ICommonProcess<Tarea>, TareaRepositorio>();
 builder.Services.AddScoped<TaskService>();
+builder.Services.AddScoped<TaskHelper>();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
 
 var app = builder.Build();
 

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0cF68kxB/9g=",
+  "dgSpecHash": "LU1QIZasE+A=",
   "success": true,
-  "projectFilePath": "C:\\Users\\yaser\\source\\repos\\TaskManagerProject\\TaskManagerProject\\TaskManagerProject.csproj",
+  "projectFilePath": "C:\\Users\\yaser\\Desktop\\TaskManagerProject\\TaskManagerProject\\TaskManagerProject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\yaser\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\yaser\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

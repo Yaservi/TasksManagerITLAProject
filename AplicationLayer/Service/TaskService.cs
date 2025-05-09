@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using AplicationLayer.Helper;
 using AplicationLayer.Repository.ICommon;
 using DomainLayer.Dto;
 using DomainLayer.Models;
@@ -12,10 +13,13 @@ namespace AplicationLayer.Service
     public class TaskService
     {
         private ICommonProcess<Tarea> _commonProcess;
+        private readonly TaskHelper _taskHelper;
 
-        public TaskService(ICommonProcess<Tarea> commonProcess)
+        public TaskService(ICommonProcess<Tarea> commonProcess, TaskHelper taskHelper)
         {
             _commonProcess = commonProcess;
+            _taskHelper = taskHelper;
+
         }
 
         public async Task<Response<Tarea>> GetAllTaskAsync()
@@ -23,6 +27,7 @@ namespace AplicationLayer.Service
             var response = new Response<Tarea>();
             try
             {
+
                 response.DataList = await _commonProcess.GetAllAsync();
                 response.Successful = true;
                 
@@ -59,13 +64,35 @@ namespace AplicationLayer.Service
         public async Task<Response<string>> AddAllTaskAsync(Tarea tarea)
         {
             var response = new Response<string>();
+
             try
             {
+
+
+                if (!_taskHelper.Validate(tarea))
+                {
+                    response.Successful = false;
+                    response.Message = "La tarea no es valida para crear";
+                    return response;
+                }
+
+                _taskHelper.NotificationCreation(tarea);
+
+                int daysLefts = _taskHelper.CalculateDaysLeft(tarea);
+                Console.WriteLine($"Dias restantes para culminar la tarea: {daysLefts}");
+
+
                var result = await _commonProcess.AddAsync(tarea);
                 response.Message = result.Message;
                 response.Successful = result.IsSuccess;
 
+                if (!result.IsSuccess)
+                {
+                   
+                    response.Errors.Add("No se pudo crear la tarea");
+                }
             }
+
             catch (Exception e)
             {
                 response.Errors.Add(e.Message);
@@ -78,9 +105,26 @@ namespace AplicationLayer.Service
             var response = new Response<string>();
             try
             {
+                if (!_taskHelper.Validate(tarea))
+                {
+                    response.Successful = false;
+                    response.Message = "La tarea no es valida para Actualizar";
+                    return response;
+                }
+
+                _taskHelper.NotificationCreation(tarea);
+
+                int daysLefts = _taskHelper.CalculateDaysLeft(tarea);
+                Console.WriteLine($"Dias restantes para culminar la tarea: {daysLefts}");
+
                 var result = await _commonProcess.UpdateAsync(tarea);
                 response.Message = result.Message;
                 response.Successful = result.IsSuccess;
+
+                if(!result.IsSuccess)
+                {
+                    response.Errors.Add("No se pudo guardar la tarea");
+                }
 
             }
             catch (Exception e)
