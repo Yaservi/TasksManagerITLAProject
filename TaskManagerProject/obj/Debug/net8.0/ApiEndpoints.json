@@ -99,6 +99,22 @@
   },
   {
     "ContainingType": "TaskManagerProject.Controllers.TasksController",
+    "Method": "CrearTareaAltaPrioridad",
+    "RelativePath": "api/Tasks/High priority",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Dto",
+        "Type": "DomainLayer.Dto.TaskDescriptionDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TaskManagerProject.Controllers.TasksController",
     "Method": "GetByIdAllTaskAsync",
     "RelativePath": "api/Tasks/id",
     "HttpMethod": "GET",

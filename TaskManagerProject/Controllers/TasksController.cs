@@ -32,5 +32,14 @@ namespace TaskManagerProject.Controllers
 
         [HttpDelete("{id}")]
         public async Task<ActionResult<Response<string>>> DeleteAllTaskAsync(int id) => await _service.DeleteAllTaskAsync(id);
+
+        [HttpPost("High priority")]
+        public async Task<IActionResult> CrearTareaAltaPrioridad([FromBody] TaskDescriptionDto Dto)
+        {
+            var result = await _service.HighPriorityTask(Dto);
+            if (result.Successful)
+                return Ok(result);
+            return BadRequest(result);
+        }
     }
 }

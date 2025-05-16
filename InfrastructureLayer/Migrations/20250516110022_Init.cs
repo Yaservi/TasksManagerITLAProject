@@ -18,9 +18,9 @@ namespace InfrastructureLayer.Migrations
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Description = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    DueDate = table.Column<DateOnly>(type: "date", nullable: false),
+                    DueDate = table.Column<DateTime>(type: "datetime2", nullable: false),
                     Status = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    AdditionalData = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                    AdditionalData = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {

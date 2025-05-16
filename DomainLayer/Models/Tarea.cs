@@ -18,6 +18,6 @@ namespace DomainLayer.Models
 
         public DateTime DueDate { get; set; }
         public string Status { get; set; }
-        public string AdditionalData { get; set; }
+        public int AdditionalData { get; set; }
     }
 }

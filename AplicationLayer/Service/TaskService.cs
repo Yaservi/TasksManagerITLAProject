@@ -22,6 +22,44 @@ namespace AplicationLayer.Service
 
         }
 
+
+
+        public async Task<Response<string>>HighPriorityTask(TaskDescriptionDto dto)
+        {
+            var response = new Response<string>();
+            try
+            {
+                var factory = new AplicationLayer.Factories.HighPriorityTask();
+                var tarea = factory.CreateHighPriorityTask(dto.Description);
+                if (!_taskHelper.Validate(tarea))
+                {
+                    response.Successful = false;
+                    response.Message = "La tarea de alta prioridad no es válida para crear";
+                    return response;
+                }
+ 
+                _taskHelper.NotificationCreation(tarea);
+
+                int daysLefts = _taskHelper.CalculateDaysLeft(tarea);
+                Console.WriteLine($"Días restantes para culminar la tarea: {daysLefts}");
+
+                var result = await _commonProcess.AddAsync(tarea);
+                response.Message = result.Message;
+                response.Successful = result.IsSuccess;
+
+                if (!result.IsSuccess)
+                {
+                    response.Errors.Add("No se pudo crear la tarea de alta prioridad");
+                }
+            }
+            catch (Exception e)
+            {
+                response.Errors.Add(e.Message);
+            }
+            return response;
+        }
+ 
+
         public async Task<Response<Tarea>> GetAllTaskAsync()
         {
             var response = new Response<Tarea>();
@@ -150,5 +188,6 @@ namespace AplicationLayer.Service
             }
             return response;
         }
+
     }
 }

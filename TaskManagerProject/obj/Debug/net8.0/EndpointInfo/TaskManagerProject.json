@@ -205,6 +205,37 @@
         }
       }
     },
+    "/api/Tasks/High priority": {
+      "post": {
+        "tags": [
+          "Tasks"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TaskDescriptionDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TaskDescriptionDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/TaskDescriptionDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/WeatherForecast": {
       "get": {
         "tags": [
@@ -306,8 +337,8 @@
             "nullable": true
           },
           "additionalData": {
-            "type": "string",
-            "nullable": true
+            "type": "integer",
+            "format": "int32"
           }
         },
         "additionalProperties": false
@@ -346,6 +377,16 @@
           },
           "singleData": {
             "$ref": "#/components/schemas/Tarea"
+          }
+        },
+        "additionalProperties": false
+      },
+      "TaskDescriptionDto": {
+        "type": "object",
+        "properties": {
+          "description": {
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false
