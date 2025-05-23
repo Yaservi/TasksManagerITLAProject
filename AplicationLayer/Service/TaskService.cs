@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using AplicationLayer.Helper;
 using AplicationLayer.Repository.ICommon;
@@ -14,6 +15,7 @@ namespace AplicationLayer.Service
     {
         private ICommonProcess<Tarea> _commonProcess;
         private readonly TaskHelper _taskHelper;
+        private readonly Queue<Tarea> _queue = new Queue<Tarea>();
 
         public TaskService(ICommonProcess<Tarea> commonProcess, TaskHelper taskHelper)
         {
@@ -37,7 +39,8 @@ namespace AplicationLayer.Service
                     response.Message = "La tarea de alta prioridad no es válida para crear";
                     return response;
                 }
- 
+                _queue.Enqueue(tarea);
+
                 _taskHelper.NotificationCreation(tarea);
 
                 int daysLefts = _taskHelper.CalculateDaysLeft(tarea);
@@ -113,6 +116,7 @@ namespace AplicationLayer.Service
                     response.Message = "La tarea no es valida para crear";
                     return response;
                 }
+                _queue.Enqueue(tarea);
 
                 _taskHelper.NotificationCreation(tarea);
 
@@ -149,6 +153,7 @@ namespace AplicationLayer.Service
                     response.Message = "La tarea no es valida para Actualizar";
                     return response;
                 }
+                _queue.Enqueue(tarea);
 
                 _taskHelper.NotificationCreation(tarea);
 
