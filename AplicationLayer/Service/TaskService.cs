@@ -176,6 +176,17 @@ namespace AplicationLayer.Service
             }
             return response;
         }
+        public async Task<double> GetCompletionRateAsync()
+        {
+            var tareas = await _commonProcess.GetAllAsync();
+            return _taskHelper.CalculateTaskCompletionRateMemoized(tareas);
+        }
+
+        public async Task<List<Tarea>> GetTasksByStatusAsync(string status)
+        {
+            var tareas = await _commonProcess.GetAllAsync();
+            return _taskHelper.FilterTasksByStatusMemoized(tareas, status);
+        }
 
         public async Task<Response<string>> DeleteAllTaskAsync(int id)
         {

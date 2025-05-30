@@ -99,6 +99,52 @@
   },
   {
     "ContainingType": "TaskManagerProject.Controllers.TasksController",
+    "Method": "GetTasksByStatus",
+    "RelativePath": "api/Tasks/by-status/{status}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "status",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[DomainLayer.Models.Tarea, DomainLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TaskManagerProject.Controllers.TasksController",
+    "Method": "GetCompletionRate",
+    "RelativePath": "api/Tasks/completion-rate",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Double",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TaskManagerProject.Controllers.TasksController",
     "Method": "CrearTareaAltaPrioridad",
     "RelativePath": "api/Tasks/High priority",
     "HttpMethod": "POST",

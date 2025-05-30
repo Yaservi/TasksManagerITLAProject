@@ -41,5 +41,18 @@ namespace TaskManagerProject.Controllers
                 return Ok(result);
             return BadRequest(result);
         }
+        [HttpGet("completion-rate")]
+        public async Task<ActionResult<double>> GetCompletionRate()
+        {
+            var rate = await _service.GetCompletionRateAsync();
+            return Ok(rate);
+        }
+
+        [HttpGet("by-status/{status}")]
+        public async Task<ActionResult<List<Tarea>>> GetTasksByStatus(string status)
+        {
+            var result = await _service.GetTasksByStatusAsync(status);
+            return Ok(result);
+        }
     }
 }

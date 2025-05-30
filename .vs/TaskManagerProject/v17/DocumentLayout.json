@@ -1,37 +1,41 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\yaser\\Desktop\\TaskManagerProject\\",
+  "WorkspaceRootPath": "C:\\Users\\yaser\\Desktop\\Nueva carpeta (3)\\TasksManagerITLAProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{31C4F865-D370-41AA-BE71-E915F09AEB07}|AplicationLayer\\AplicationLayer.csproj|c:\\users\\yaser\\desktop\\taskmanagerproject\\aplicationlayer\\service\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{31C4F865-D370-41AA-BE71-E915F09AEB07}|AplicationLayer\\AplicationLayer.csproj|c:\\users\\yaser\\desktop\\nueva carpeta (3)\\tasksmanageritlaproject\\aplicationlayer\\service\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{31C4F865-D370-41AA-BE71-E915F09AEB07}|AplicationLayer\\AplicationLayer.csproj|solutionrelative:aplicationlayer\\service\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AF5EA9D3-58C9-4557-BE17-22F8391FE120}|InfrastructureLayer\\InfrastructureLayer.csproj|c:\\users\\yaser\\desktop\\taskmanagerproject\\infrastructurelayer\\migrations\\20250516110022_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF5EA9D3-58C9-4557-BE17-22F8391FE120}|InfrastructureLayer\\InfrastructureLayer.csproj|solutionrelative:infrastructurelayer\\migrations\\20250516110022_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDC45E0D-2EE7-4C39-A577-A0C02EAD7D76}|TaskManagerProject\\TaskManagerProject.csproj|c:\\users\\yaser\\desktop\\taskmanagerproject\\taskmanagerproject\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DDC45E0D-2EE7-4C39-A577-A0C02EAD7D76}|TaskManagerProject\\TaskManagerProject.csproj|c:\\users\\yaser\\desktop\\nueva carpeta (3)\\tasksmanageritlaproject\\taskmanagerproject\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DDC45E0D-2EE7-4C39-A577-A0C02EAD7D76}|TaskManagerProject\\TaskManagerProject.csproj|solutionrelative:taskmanagerproject\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{484F5F59-F127-418C-ACA9-1E2FE4E5EF71}|DomainLayer\\DomainLayer.csproj|c:\\users\\yaser\\desktop\\taskmanagerproject\\domainlayer\\dto\\taskdescriptiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{31C4F865-D370-41AA-BE71-E915F09AEB07}|AplicationLayer\\AplicationLayer.csproj|c:\\users\\yaser\\desktop\\nueva carpeta (3)\\tasksmanageritlaproject\\aplicationlayer\\helper\\taskhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31C4F865-D370-41AA-BE71-E915F09AEB07}|AplicationLayer\\AplicationLayer.csproj|solutionrelative:aplicationlayer\\helper\\taskhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF5EA9D3-58C9-4557-BE17-22F8391FE120}|InfrastructureLayer\\InfrastructureLayer.csproj|c:\\users\\yaser\\desktop\\nueva carpeta (3)\\tasksmanageritlaproject\\infrastructurelayer\\migrations\\20250516110022_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF5EA9D3-58C9-4557-BE17-22F8391FE120}|InfrastructureLayer\\InfrastructureLayer.csproj|solutionrelative:infrastructurelayer\\migrations\\20250516110022_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{484F5F59-F127-418C-ACA9-1E2FE4E5EF71}|DomainLayer\\DomainLayer.csproj|c:\\users\\yaser\\desktop\\nueva carpeta (3)\\tasksmanageritlaproject\\domainlayer\\dto\\taskdescriptiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{484F5F59-F127-418C-ACA9-1E2FE4E5EF71}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\dto\\taskdescriptiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{484F5F59-F127-418C-ACA9-1E2FE4E5EF71}|DomainLayer\\DomainLayer.csproj|c:\\users\\yaser\\desktop\\taskmanagerproject\\domainlayer\\models\\tarea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{484F5F59-F127-418C-ACA9-1E2FE4E5EF71}|DomainLayer\\DomainLayer.csproj|c:\\users\\yaser\\desktop\\nueva carpeta (3)\\tasksmanageritlaproject\\domainlayer\\models\\tarea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{484F5F59-F127-418C-ACA9-1E2FE4E5EF71}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\models\\tarea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31C4F865-D370-41AA-BE71-E915F09AEB07}|AplicationLayer\\AplicationLayer.csproj|c:\\users\\yaser\\desktop\\taskmanagerproject\\aplicationlayer\\factories\\highprioritytask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{31C4F865-D370-41AA-BE71-E915F09AEB07}|AplicationLayer\\AplicationLayer.csproj|c:\\users\\yaser\\desktop\\nueva carpeta (3)\\tasksmanageritlaproject\\aplicationlayer\\factories\\highprioritytask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{31C4F865-D370-41AA-BE71-E915F09AEB07}|AplicationLayer\\AplicationLayer.csproj|solutionrelative:aplicationlayer\\factories\\highprioritytask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31C4F865-D370-41AA-BE71-E915F09AEB07}|AplicationLayer\\AplicationLayer.csproj|c:\\users\\yaser\\desktop\\taskmanagerproject\\aplicationlayer\\factories\\highpriorityfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{31C4F865-D370-41AA-BE71-E915F09AEB07}|AplicationLayer\\AplicationLayer.csproj|c:\\users\\yaser\\desktop\\nueva carpeta (3)\\tasksmanageritlaproject\\aplicationlayer\\factories\\highpriorityfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{31C4F865-D370-41AA-BE71-E915F09AEB07}|AplicationLayer\\AplicationLayer.csproj|solutionrelative:aplicationlayer\\factories\\highpriorityfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31C4F865-D370-41AA-BE71-E915F09AEB07}|AplicationLayer\\AplicationLayer.csproj|c:\\users\\yaser\\desktop\\taskmanagerproject\\aplicationlayer\\repository\\icommon\\icommonprocess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{31C4F865-D370-41AA-BE71-E915F09AEB07}|AplicationLayer\\AplicationLayer.csproj|c:\\users\\yaser\\desktop\\nueva carpeta (3)\\tasksmanageritlaproject\\aplicationlayer\\repository\\icommon\\icommonprocess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{31C4F865-D370-41AA-BE71-E915F09AEB07}|AplicationLayer\\AplicationLayer.csproj|solutionrelative:aplicationlayer\\repository\\icommon\\icommonprocess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -42,15 +46,28 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "TaskHelper.cs",
+              "DocumentMoniker": "C:\\Users\\yaser\\Desktop\\Nueva carpeta (3)\\TasksManagerITLAProject\\AplicationLayer\\Helper\\TaskHelper.cs",
+              "RelativeDocumentMoniker": "AplicationLayer\\Helper\\TaskHelper.cs",
+              "ToolTip": "C:\\Users\\yaser\\Desktop\\Nueva carpeta (3)\\TasksManagerITLAProject\\AplicationLayer\\Helper\\TaskHelper.cs",
+              "RelativeToolTip": "AplicationLayer\\Helper\\TaskHelper.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAIAywEsAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T22:09:22.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "20250516110022_Init.cs",
-              "DocumentMoniker": "C:\\Users\\yaser\\Desktop\\TaskManagerProject\\InfrastructureLayer\\Migrations\\20250516110022_Init.cs",
+              "DocumentMoniker": "C:\\Users\\yaser\\Desktop\\Nueva carpeta (3)\\TasksManagerITLAProject\\InfrastructureLayer\\Migrations\\20250516110022_Init.cs",
               "RelativeDocumentMoniker": "InfrastructureLayer\\Migrations\\20250516110022_Init.cs",
-              "ToolTip": "C:\\Users\\yaser\\Desktop\\TaskManagerProject\\InfrastructureLayer\\Migrations\\20250516110022_Init.cs",
+              "ToolTip": "C:\\Users\\yaser\\Desktop\\Nueva carpeta (3)\\TasksManagerITLAProject\\InfrastructureLayer\\Migrations\\20250516110022_Init.cs",
               "RelativeToolTip": "InfrastructureLayer\\Migrations\\20250516110022_Init.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -58,11 +75,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "TaskDescriptionDto.cs",
-              "DocumentMoniker": "C:\\Users\\yaser\\Desktop\\TaskManagerProject\\DomainLayer\\Dto\\TaskDescriptionDto.cs",
+              "DocumentMoniker": "C:\\Users\\yaser\\Desktop\\Nueva carpeta (3)\\TasksManagerITLAProject\\DomainLayer\\Dto\\TaskDescriptionDto.cs",
               "RelativeDocumentMoniker": "DomainLayer\\Dto\\TaskDescriptionDto.cs",
-              "ToolTip": "C:\\Users\\yaser\\Desktop\\TaskManagerProject\\DomainLayer\\Dto\\TaskDescriptionDto.cs",
+              "ToolTip": "C:\\Users\\yaser\\Desktop\\Nueva carpeta (3)\\TasksManagerITLAProject\\DomainLayer\\Dto\\TaskDescriptionDto.cs",
               "RelativeToolTip": "DomainLayer\\Dto\\TaskDescriptionDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -70,36 +87,37 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "TasksController.cs",
-              "DocumentMoniker": "C:\\Users\\yaser\\Desktop\\TaskManagerProject\\TaskManagerProject\\Controllers\\TasksController.cs",
+              "DocumentMoniker": "C:\\Users\\yaser\\Desktop\\Nueva carpeta (3)\\TasksManagerITLAProject\\TaskManagerProject\\Controllers\\TasksController.cs",
               "RelativeDocumentMoniker": "TaskManagerProject\\Controllers\\TasksController.cs",
-              "ToolTip": "C:\\Users\\yaser\\Desktop\\TaskManagerProject\\TaskManagerProject\\Controllers\\TasksController.cs",
+              "ToolTip": "C:\\Users\\yaser\\Desktop\\Nueva carpeta (3)\\TasksManagerITLAProject\\TaskManagerProject\\Controllers\\TasksController.cs",
               "RelativeToolTip": "TaskManagerProject\\Controllers\\TasksController.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACIAAAAAAAAAAAAkwCkAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T10:45:38.46Z"
+              "WhenOpened": "2025-05-16T10:45:38.46Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "TaskService.cs",
-              "DocumentMoniker": "C:\\Users\\yaser\\Desktop\\TaskManagerProject\\AplicationLayer\\Service\\TaskService.cs",
+              "DocumentMoniker": "C:\\Users\\yaser\\Desktop\\Nueva carpeta (3)\\TasksManagerITLAProject\\AplicationLayer\\Service\\TaskService.cs",
               "RelativeDocumentMoniker": "AplicationLayer\\Service\\TaskService.cs",
-              "ToolTip": "C:\\Users\\yaser\\Desktop\\TaskManagerProject\\AplicationLayer\\Service\\TaskService.cs",
+              "ToolTip": "C:\\Users\\yaser\\Desktop\\Nueva carpeta (3)\\TasksManagerITLAProject\\AplicationLayer\\Service\\TaskService.cs",
               "RelativeToolTip": "AplicationLayer\\Service\\TaskService.cs",
-              "ViewState": "AgIAAJ0AAAAAAAAAAAArwLUAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAKwAAAAAAAAAAAAUwMYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-16T10:22:36.262Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Tarea.cs",
-              "DocumentMoniker": "C:\\Users\\yaser\\Desktop\\TaskManagerProject\\DomainLayer\\Models\\Tarea.cs",
+              "DocumentMoniker": "C:\\Users\\yaser\\Desktop\\Nueva carpeta (3)\\TasksManagerITLAProject\\DomainLayer\\Models\\Tarea.cs",
               "RelativeDocumentMoniker": "DomainLayer\\Models\\Tarea.cs",
-              "ToolTip": "C:\\Users\\yaser\\Desktop\\TaskManagerProject\\DomainLayer\\Models\\Tarea.cs",
+              "ToolTip": "C:\\Users\\yaser\\Desktop\\Nueva carpeta (3)\\TasksManagerITLAProject\\DomainLayer\\Models\\Tarea.cs",
               "RelativeToolTip": "DomainLayer\\Models\\Tarea.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAwwBAAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -107,11 +125,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "HighPriorityTask.cs",
-              "DocumentMoniker": "C:\\Users\\yaser\\Desktop\\TaskManagerProject\\AplicationLayer\\Factories\\HighPriorityTask.cs",
+              "DocumentMoniker": "C:\\Users\\yaser\\Desktop\\Nueva carpeta (3)\\TasksManagerITLAProject\\AplicationLayer\\Factories\\HighPriorityTask.cs",
               "RelativeDocumentMoniker": "AplicationLayer\\Factories\\HighPriorityTask.cs",
-              "ToolTip": "C:\\Users\\yaser\\Desktop\\TaskManagerProject\\AplicationLayer\\Factories\\HighPriorityTask.cs",
+              "ToolTip": "C:\\Users\\yaser\\Desktop\\Nueva carpeta (3)\\TasksManagerITLAProject\\AplicationLayer\\Factories\\HighPriorityTask.cs",
               "RelativeToolTip": "AplicationLayer\\Factories\\HighPriorityTask.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAAQwAcAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -119,11 +137,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "HighPriorityFactory.cs",
-              "DocumentMoniker": "C:\\Users\\yaser\\Desktop\\TaskManagerProject\\AplicationLayer\\Factories\\HighPriorityFactory.cs",
+              "DocumentMoniker": "C:\\Users\\yaser\\Desktop\\Nueva carpeta (3)\\TasksManagerITLAProject\\AplicationLayer\\Factories\\HighPriorityFactory.cs",
               "RelativeDocumentMoniker": "AplicationLayer\\Factories\\HighPriorityFactory.cs",
-              "ToolTip": "C:\\Users\\yaser\\Desktop\\TaskManagerProject\\AplicationLayer\\Factories\\HighPriorityFactory.cs",
+              "ToolTip": "C:\\Users\\yaser\\Desktop\\Nueva carpeta (3)\\TasksManagerITLAProject\\AplicationLayer\\Factories\\HighPriorityFactory.cs",
               "RelativeToolTip": "AplicationLayer\\Factories\\HighPriorityFactory.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAIwBAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -131,11 +149,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "ICommonProcess.cs",
-              "DocumentMoniker": "C:\\Users\\yaser\\Desktop\\TaskManagerProject\\AplicationLayer\\Repository\\ICommon\\ICommonProcess.cs",
+              "DocumentMoniker": "C:\\Users\\yaser\\Desktop\\Nueva carpeta (3)\\TasksManagerITLAProject\\AplicationLayer\\Repository\\ICommon\\ICommonProcess.cs",
               "RelativeDocumentMoniker": "AplicationLayer\\Repository\\ICommon\\ICommonProcess.cs",
-              "ToolTip": "C:\\Users\\yaser\\Desktop\\TaskManagerProject\\AplicationLayer\\Repository\\ICommon\\ICommonProcess.cs",
+              "ToolTip": "C:\\Users\\yaser\\Desktop\\Nueva carpeta (3)\\TasksManagerITLAProject\\AplicationLayer\\Repository\\ICommon\\ICommonProcess.cs",
               "RelativeToolTip": "AplicationLayer\\Repository\\ICommon\\ICommonProcess.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
