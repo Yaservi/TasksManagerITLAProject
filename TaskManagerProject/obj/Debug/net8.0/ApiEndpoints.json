@@ -1,5 +1,150 @@
 [
   {
+    "ContainingType": "TaskManagerProject.Controllers.AccountController",
+    "Method": "Delete",
+    "RelativePath": "api/Account/{userId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TaskManagerProject.Controllers.AccountController",
+    "Method": "Login",
+    "RelativePath": "api/Account/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "AplicationLayer.Dtos.Account.Auth.AuthRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "AplicationLayer.Dtos.Account.Auth.AuthResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TaskManagerProject.Controllers.AccountController",
+    "Method": "Logout",
+    "RelativePath": "api/Account/logout",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TaskManagerProject.Controllers.AccountController",
+    "Method": "RegisterProfessor",
+    "RelativePath": "api/Account/Register Professor",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "AplicationLayer.Dtos.Account.Register.RegisterRequest",
+        "IsRequired": true
+      },
+      {
+        "Name": "role",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "AplicationLayer.Dtos.Account.Register.RegisterResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TaskManagerProject.Controllers.AccountController",
+    "Method": "RegisterStudent",
+    "RelativePath": "api/Account/Register Students",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "AplicationLayer.Dtos.Account.Register.RegisterRequest",
+        "IsRequired": true
+      },
+      {
+        "Name": "role",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "AplicationLayer.Dtos.Account.Register.RegisterResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TaskManagerProject.Controllers.AccountController",
+    "Method": "Update",
+    "RelativePath": "api/Account/update/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "AplicationLayer.Dtos.Account.UpdateAccountDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "AplicationLayer.Dtos.Account.UpdateAccountDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "TaskManagerProject.Controllers.TasksController",
     "Method": "GetAllTaskAsync",
     "RelativePath": "api/Tasks",
@@ -145,7 +290,7 @@
   },
   {
     "ContainingType": "TaskManagerProject.Controllers.TasksController",
-    "Method": "CrearTareaAltaPrioridad",
+    "Method": "CreateHighTaskPriority",
     "RelativePath": "api/Tasks/High priority",
     "HttpMethod": "POST",
     "IsController": true,
@@ -153,7 +298,7 @@
     "Parameters": [
       {
         "Name": "Dto",
-        "Type": "DomainLayer.Dto.TaskDescriptionDto",
+        "Type": "AplicationLayer.Dtos.Task.TaskDescriptionDto",
         "IsRequired": true
       }
     ],
@@ -184,26 +329,5 @@
         "StatusCode": 200
       }
     ]
-  },
-  {
-    "ContainingType": "TaskManagerProject.Controllers.WeatherForecastController",
-    "Method": "Get",
-    "RelativePath": "WeatherForecast",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[TaskManagerProject.WeatherForecast, TaskManagerProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ],
-    "EndpointName": "GetWeatherForecast"
   }
 ]

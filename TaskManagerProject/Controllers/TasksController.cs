@@ -1,6 +1,8 @@
-﻿using AplicationLayer.Service;
+﻿using AplicationLayer.Dtos.Task;
+using AplicationLayer.Service;
 using DomainLayer.Dto;
 using DomainLayer.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -25,16 +27,20 @@ namespace TaskManagerProject.Controllers
         public async Task<ActionResult<Response<Tarea>>> GetByIdAllTaskAsync(int id) => await _service.GetByIdTaskAsync(id);
 
         [HttpPost]
+        [Authorize (Roles = "Professor")]
         public async Task<ActionResult<Response<string>>> AddAllTaskAsync(Tarea tarea) => await _service.AddAllTaskAsync(tarea);
 
         [HttpPut]
+        [Authorize(Roles = "Professor")]
         public async Task<ActionResult<Response<string>>> UpdateAllTaskAsync(Tarea tarea) => await _service.UpdateAllTaskAsync(tarea);
 
         [HttpDelete("{id}")]
+        [Authorize(Roles = "Professor")]
         public async Task<ActionResult<Response<string>>> DeleteAllTaskAsync(int id) => await _service.DeleteAllTaskAsync(id);
 
         [HttpPost("High priority")]
-        public async Task<IActionResult> CrearTareaAltaPrioridad([FromBody] TaskDescriptionDto Dto)
+        [Authorize(Roles = "Professor")]
+        public async Task<IActionResult> CreateHighTaskPriority([FromBody] TaskDescriptionDto Dto)
         {
             var result = await _service.HighPriorityTask(Dto);
             if (result.Successful)

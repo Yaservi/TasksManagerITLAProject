@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DomainLayer.Dto
+namespace DomainLayer.Enums
 {
-    public class TaskDescriptionDto
+    public enum Roles
     {
-            public string Description { get; set; }
+        Professor,
+        Student
     }
 }
