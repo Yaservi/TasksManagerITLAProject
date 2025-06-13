@@ -467,3 +467,8 @@ C:\Users\yaser\Desktop\Nueva carpeta (3)\TasksManagerITLAProject\TaskManagerProj
 C:\Users\yaser\Desktop\Nueva carpeta (3)\TasksManagerITLAProject\TaskManagerProject\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
 C:\Users\yaser\Desktop\Nueva carpeta (3)\TasksManagerITLAProject\TaskManagerProject\bin\Debug\net8.0\Newtonsoft.Json.dll
 C:\Users\yaser\Desktop\Nueva carpeta (3)\TasksManagerITLAProject\TaskManagerProject\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+C:\Users\yaser\Desktop\Nueva carpeta (3)\TasksManagerITLAProject\TaskManagerProject\bin\Debug\net8.0\AspNetCore.SignalR.OpenTelemetry.dll
+C:\Users\yaser\Desktop\Nueva carpeta (3)\TasksManagerITLAProject\TaskManagerProject\bin\Debug\net8.0\OpenTelemetry.Api.dll
+C:\Users\yaser\Desktop\Nueva carpeta (3)\TasksManagerITLAProject\TaskManagerProject\bin\Debug\net8.0\OpenTelemetry.Api.ProviderBuilderExtensions.dll
+C:\Users\yaser\Desktop\Nueva carpeta (3)\TasksManagerITLAProject\TaskManagerProject\bin\Debug\net8.0\OpenTelemetry.Instrumentation.AspNetCore.dll
+C:\Users\yaser\Desktop\Nueva carpeta (3)\TasksManagerITLAProject\TaskManagerProject\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll

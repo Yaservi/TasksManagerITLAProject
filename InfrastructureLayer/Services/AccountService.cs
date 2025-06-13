@@ -110,11 +110,6 @@ namespace InfrastructureLayer.Services
             };
         }
 
-        public Task<RegisterResponse> RegisterProfessorAsync(RegisterRequest registerRequest, Roles roles)
-        {
-            throw new NotImplementedException();
-        }
-
         public async Task RemoveAccountAsync(string userId)
         {
             var user = await _userManager.FindByIdAsync(userId);

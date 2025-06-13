@@ -113,6 +113,7 @@ builder.Services.AddScoped<IAccountService, AccountService>();
 builder.Services.AddScoped<ICommonProcess<Tarea>, TareaRepositorio>();
 builder.Services.AddScoped<TaskService>();
 builder.Services.AddScoped<TaskHelper>();
+builder.Services.AddSignalR();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

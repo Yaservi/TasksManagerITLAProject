@@ -15,7 +15,6 @@ namespace AplicationLayer.Interfaces.Service
         Task<AuthResponse> AuthAsync(AuthRequest authRequest);
         Task<UpdateAccountDto> UpdateAccountDetailsAsync(UpdateAccountDto updateAccountDto, string id);
         Task<RegisterResponse> RegisterAccountAsync(RegisterRequest registerRequest, Roles roles);
-        Task<RegisterResponse> RegisterProfessorAsync(RegisterRequest registerRequest, Roles roles);
         Task LogOutAsync();
         Task RemoveAccountAsync(string userId);
     }

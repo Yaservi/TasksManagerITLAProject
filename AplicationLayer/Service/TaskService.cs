@@ -6,9 +6,11 @@ using System.Threading;
 using System.Threading.Tasks;
 using AplicationLayer.Dtos.Task;
 using AplicationLayer.Helper;
+using AplicationLayer.Hub;
 using AplicationLayer.Repository.ICommon;
 using DomainLayer.Dto;
 using DomainLayer.Models;
+using Microsoft.AspNetCore.SignalR;
 
 namespace AplicationLayer.Service
 {
@@ -16,13 +18,14 @@ namespace AplicationLayer.Service
     {
         private ICommonProcess<Tarea> _commonProcess;
         private readonly TaskHelper _taskHelper;
+        private readonly IHubContext<NotificationHub> _hubContext;
         private readonly Queue<Tarea> _queue = new Queue<Tarea>();
 
-        public TaskService(ICommonProcess<Tarea> commonProcess, TaskHelper taskHelper)
+        public TaskService(ICommonProcess<Tarea> commonProcess, TaskHelper taskHelper, IHubContext<NotificationHub> hubContext)
         {
             _commonProcess = commonProcess;
             _taskHelper = taskHelper;
-
+            _hubContext = hubContext;
         }
 
 
@@ -43,9 +46,11 @@ namespace AplicationLayer.Service
                 _queue.Enqueue(tarea);
 
                 _taskHelper.NotificationCreation(tarea);
+                await _hubContext.Clients.All.SendAsync("ReceiveNotification", $"Nueva tarea de alta prioridad creada: {tarea.Description}");
 
                 int daysLefts = _taskHelper.CalculateDaysLeft(tarea);
                 Console.WriteLine($"Días restantes para culminar la tarea: {daysLefts}");
+                
 
                 var result = await _commonProcess.AddAsync(tarea);
                 response.Message = result.Message;
@@ -120,12 +125,13 @@ namespace AplicationLayer.Service
                 _queue.Enqueue(tarea);
 
                 _taskHelper.NotificationCreation(tarea);
+               await _hubContext.Clients.All.SendAsync("ReceiveNotification", $"Nueva tarea creada: {tarea.Description}");
 
                 int daysLefts = _taskHelper.CalculateDaysLeft(tarea);
                 Console.WriteLine($"Dias restantes para culminar la tarea: {daysLefts}");
 
 
-               var result = await _commonProcess.AddAsync(tarea);
+                var result = await _commonProcess.AddAsync(tarea);
                 response.Message = result.Message;
                 response.Successful = result.IsSuccess;
 
