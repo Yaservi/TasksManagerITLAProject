@@ -106,9 +106,6 @@ builder.Services.AddScoped<IAccountService, AccountService>();
 #endregion
 
 
-
-
-
 //Add Services
 builder.Services.AddScoped<ICommonProcess<Tarea>, TareaRepositorio>();
 builder.Services.AddScoped<TaskService>();

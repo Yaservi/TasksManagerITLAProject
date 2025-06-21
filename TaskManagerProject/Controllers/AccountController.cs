@@ -46,13 +46,7 @@ namespace TaskManagerProject.Controllers
             return Ok(response);
         }
 
-        [HttpPost("logout")]
-        [Authorize]
-        public async Task<IActionResult> Logout()
-        {
-            await _accountService.LogOutAsync();
-            return NoContent();
-        }
+        
 
         [HttpPut("update/{id}")]
         [Authorize]
@@ -62,12 +56,6 @@ namespace TaskManagerProject.Controllers
             return Ok(result);
         }
 
-        [HttpDelete("{userId}")]
-        public async Task<IActionResult> Delete(string userId)
-        {
-            await _accountService.RemoveAccountAsync(userId);
-            return NoContent();
-        }
 
         [HttpPost("forgot-password")]
         [AllowAnonymous]
@@ -97,6 +85,21 @@ namespace TaskManagerProject.Controllers
             if (!result.Successful)
                 return BadRequest(result);
             return Ok(result);
+        }
+
+        [HttpPost("logout")]
+        [Authorize]
+        public async Task<IActionResult> Logout()
+        {
+            await _accountService.LogOutAsync();
+            return NoContent();
+        }
+
+        [HttpDelete("{userId}")]
+        public async Task<IActionResult> Delete(string userId)
+        {
+            await _accountService.RemoveAccountAsync(userId);
+            return NoContent();
         }
 
     }

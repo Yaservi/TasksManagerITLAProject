@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\yaser\\Desktop\\Nueva carpeta\\TasksManagerITLAProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{59BCB677-7E11-41C5-8977-9CCB72CC9DE5}|TasksManagerITLAProject.Tests\\TasksManagerITLAProject.Tests.csproj|c:\\users\\yaser\\desktop\\nueva carpeta\\tasksmanageritlaproject\\tasksmanageritlaproject.tests\\accountservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{59BCB677-7E11-41C5-8977-9CCB72CC9DE5}|TasksManagerITLAProject.Tests\\TasksManagerITLAProject.Tests.csproj|solutionrelative:tasksmanageritlaproject.tests\\accountservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DDC45E0D-2EE7-4C39-A577-A0C02EAD7D76}|TaskManagerProject\\TaskManagerProject.csproj|c:\\users\\yaser\\desktop\\nueva carpeta\\tasksmanageritlaproject\\taskmanagerproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDC45E0D-2EE7-4C39-A577-A0C02EAD7D76}|TaskManagerProject\\TaskManagerProject.csproj|solutionrelative:taskmanagerproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31C4F865-D370-41AA-BE71-E915F09AEB07}|AplicationLayer\\AplicationLayer.csproj|c:\\users\\yaser\\desktop\\nueva carpeta\\tasksmanageritlaproject\\aplicationlayer\\helper\\taskhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31C4F865-D370-41AA-BE71-E915F09AEB07}|AplicationLayer\\AplicationLayer.csproj|solutionrelative:aplicationlayer\\helper\\taskhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DDC45E0D-2EE7-4C39-A577-A0C02EAD7D76}|TaskManagerProject\\TaskManagerProject.csproj|c:\\users\\yaser\\desktop\\nueva carpeta\\tasksmanageritlaproject\\taskmanagerproject\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDC45E0D-2EE7-4C39-A577-A0C02EAD7D76}|TaskManagerProject\\TaskManagerProject.csproj|solutionrelative:taskmanagerproject\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31C4F865-D370-41AA-BE71-E915F09AEB07}|AplicationLayer\\AplicationLayer.csproj|c:\\users\\yaser\\desktop\\nueva carpeta\\tasksmanageritlaproject\\aplicationlayer\\service\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31C4F865-D370-41AA-BE71-E915F09AEB07}|AplicationLayer\\AplicationLayer.csproj|solutionrelative:aplicationlayer\\service\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AF5EA9D3-58C9-4557-BE17-22F8391FE120}|InfrastructureLayer\\InfrastructureLayer.csproj|c:\\users\\yaser\\desktop\\nueva carpeta\\tasksmanageritlaproject\\infrastructurelayer\\seeds\\defaultprofessorroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF5EA9D3-58C9-4557-BE17-22F8391FE120}|InfrastructureLayer\\InfrastructureLayer.csproj|solutionrelative:infrastructurelayer\\seeds\\defaultprofessorroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -25,47 +25,47 @@
           "SelectedChildIndex": 1,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TaskHelper.cs",
-              "DocumentMoniker": "C:\\Users\\yaser\\Desktop\\Nueva carpeta\\TasksManagerITLAProject\\AplicationLayer\\Helper\\TaskHelper.cs",
-              "RelativeDocumentMoniker": "AplicationLayer\\Helper\\TaskHelper.cs",
-              "ToolTip": "C:\\Users\\yaser\\Desktop\\Nueva carpeta\\TasksManagerITLAProject\\AplicationLayer\\Helper\\TaskHelper.cs",
-              "RelativeToolTip": "AplicationLayer\\Helper\\TaskHelper.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAcwDEAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-21T04:18:26.842Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AccountServiceTests.cs",
-              "DocumentMoniker": "C:\\Users\\yaser\\Desktop\\Nueva carpeta\\TasksManagerITLAProject\\TasksManagerITLAProject.Tests\\AccountServiceTests.cs",
-              "RelativeDocumentMoniker": "TasksManagerITLAProject.Tests\\AccountServiceTests.cs",
-              "ToolTip": "C:\\Users\\yaser\\Desktop\\Nueva carpeta\\TasksManagerITLAProject\\TasksManagerITLAProject.Tests\\AccountServiceTests.cs",
-              "RelativeToolTip": "TasksManagerITLAProject.Tests\\AccountServiceTests.cs",
-              "ViewState": "AgIAAIsAAAAAAAAAAAAowKIAAAA6AAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\yaser\\Desktop\\Nueva carpeta\\TasksManagerITLAProject\\TaskManagerProject\\Program.cs",
+              "RelativeDocumentMoniker": "TaskManagerProject\\Program.cs",
+              "ToolTip": "C:\\Users\\yaser\\Desktop\\Nueva carpeta\\TasksManagerITLAProject\\TaskManagerProject\\Program.cs",
+              "RelativeToolTip": "TaskManagerProject\\Program.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAABYAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-21T04:03:50.7Z",
+              "WhenOpened": "2025-06-21T10:15:20.612Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "TaskService.cs",
-              "DocumentMoniker": "C:\\Users\\yaser\\Desktop\\Nueva carpeta\\TasksManagerITLAProject\\AplicationLayer\\Service\\TaskService.cs",
-              "RelativeDocumentMoniker": "AplicationLayer\\Service\\TaskService.cs",
-              "ToolTip": "C:\\Users\\yaser\\Desktop\\Nueva carpeta\\TasksManagerITLAProject\\AplicationLayer\\Service\\TaskService.cs",
-              "RelativeToolTip": "AplicationLayer\\Service\\TaskService.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAUwCUAAAAXAAAAAAAAAA==",
+              "Title": "DefaultProfessorRoles.cs",
+              "DocumentMoniker": "C:\\Users\\yaser\\Desktop\\Nueva carpeta\\TasksManagerITLAProject\\InfrastructureLayer\\Seeds\\DefaultProfessorRoles.cs",
+              "RelativeDocumentMoniker": "InfrastructureLayer\\Seeds\\DefaultProfessorRoles.cs",
+              "ToolTip": "C:\\Users\\yaser\\Desktop\\Nueva carpeta\\TasksManagerITLAProject\\InfrastructureLayer\\Seeds\\DefaultProfessorRoles.cs",
+              "RelativeToolTip": "InfrastructureLayer\\Seeds\\DefaultProfessorRoles.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAArwB0AAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-21T03:59:14.884Z",
+              "WhenOpened": "2025-06-21T10:11:22.613Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\yaser\\Desktop\\Nueva carpeta\\TasksManagerITLAProject\\TaskManagerProject\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "TaskManagerProject\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\yaser\\Desktop\\Nueva carpeta\\TasksManagerITLAProject\\TaskManagerProject\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "TaskManagerProject\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAIwGYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T09:53:28.786Z",
+              "EditorCaption": ""
             }
           ]
         }

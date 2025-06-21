@@ -30,7 +30,7 @@ namespace InfrastructureLayer.Services
             IOptions<JWTSetting> jwtSettings, IEmailService emailSender) : IAccountService
     {
        
-        private readonly JWTSetting _jwtSettings;
+        private readonly JWTSetting _jwtSettings = jwtSettings.Value; 
         private string RandomTokenString()
         {
             using var rng = RandomNumberGenerator.Create();
