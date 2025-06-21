@@ -48,7 +48,6 @@ namespace AplicationLayer.Helper
 
         public double CalculateTaskCompletionRateMemoized(IEnumerable<Tarea> tareas)
         {
-            // Clave única basada en los IDs y estados de las tareas
             var key = string.Join(",", tareas.Select(t => $"{t.Id}:{t.Status}"));
 
             if (_completionRateCache.TryGetValue(key, out var rate))

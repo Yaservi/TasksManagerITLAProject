@@ -1,5 +1,7 @@
 ﻿using AplicationLayer.Dtos.Account;
 using AplicationLayer.Dtos.Account.Auth;
+using AplicationLayer.Dtos.Account.Password.Forgot;
+using AplicationLayer.Dtos.Account.Password.Reset;
 using AplicationLayer.Dtos.Account.Register;
 using AplicationLayer.Interfaces.Service;
 using DomainLayer.Enums;
@@ -31,21 +33,17 @@ namespace TaskManagerProject.Controllers
         }
 
         [HttpPost("Register Professor")]
-        [Authorize(Roles = "Professor")]
-        public async Task<ActionResult<RegisterResponse>> RegisterProfessor([FromBody] RegisterRequest request, [FromQuery] Roles role)
+        public async Task<ActionResult<RegisterResponse>> RegisterProfessor([FromBody] RegisterRequest request)
         {
-
-            var result = await _accountService.RegisterAccountAsync(request, Roles.Professor);
-            return Ok(result);
+            var response = await _accountService.RegisterAccountAsync(request, Roles.Professor);
+            return Ok(response);
         }
 
         [HttpPost("Register Students")]
-        [Authorize(Roles = "Professor")]
-        public async Task<ActionResult<RegisterResponse>> RegisterStudent([FromBody] RegisterRequest request, [FromQuery] Roles role)
+        public async Task<ActionResult<RegisterResponse>> RegisterStudent([FromBody] RegisterRequest request)
         {
-
-            var result = await _accountService.RegisterAccountAsync(request, Roles.Student);
-            return Ok(result);
+            var response = await _accountService.RegisterAccountAsync(request, Roles.Student);
+            return Ok(response);
         }
 
         [HttpPost("logout")]
@@ -65,11 +63,41 @@ namespace TaskManagerProject.Controllers
         }
 
         [HttpDelete("{userId}")]
-        [Authorize(Roles = "Professor")] // Ajusta el rol según tu lógica
         public async Task<IActionResult> Delete(string userId)
         {
             await _accountService.RemoveAccountAsync(userId);
             return NoContent();
         }
+
+        [HttpPost("forgot-password")]
+        [AllowAnonymous]
+        public async Task<IActionResult> ForgotPassword([FromBody] ForgotRequest request)
+        {
+            var result = await _accountService.GetForgotPasswordAsync(request);
+            if (!result.Successful)
+                return BadRequest(result);
+            return Ok(result);
+        }
+
+        [HttpPost("reset-password")]
+        [AllowAnonymous]
+        public async Task<IActionResult> ResetPassword([FromBody] ResetPasswordRequest request)
+        {
+            var result = await _accountService.ResetPasswordAsync(request);
+            if (!result.Successful)
+                return BadRequest(result);
+            return Ok(result);
+        }
+
+        [HttpPost("confirm-account")]
+        [AllowAnonymous]
+        public async Task<IActionResult> ConfirmAccount([FromQuery] string userId, [FromQuery] string token)
+        {
+            var result = await _accountService.ConfirmAccountAsync(userId, token);
+            if (!result.Successful)
+                return BadRequest(result);
+            return Ok(result);
+        }
+
     }
 }

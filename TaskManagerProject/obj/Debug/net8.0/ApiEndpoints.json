@@ -17,6 +17,43 @@
   },
   {
     "ContainingType": "TaskManagerProject.Controllers.AccountController",
+    "Method": "ConfirmAccount",
+    "RelativePath": "api/Account/confirm-account",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "token",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TaskManagerProject.Controllers.AccountController",
+    "Method": "ForgotPassword",
+    "RelativePath": "api/Account/forgot-password",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "AplicationLayer.Dtos.Account.Password.Forgot.ForgotRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TaskManagerProject.Controllers.AccountController",
     "Method": "Login",
     "RelativePath": "api/Account/login",
     "HttpMethod": "POST",
@@ -63,11 +100,6 @@
         "Name": "request",
         "Type": "AplicationLayer.Dtos.Account.Register.RegisterRequest",
         "IsRequired": true
-      },
-      {
-        "Name": "role",
-        "Type": "System.String",
-        "IsRequired": false
       }
     ],
     "ReturnTypes": [
@@ -94,11 +126,6 @@
         "Name": "request",
         "Type": "AplicationLayer.Dtos.Account.Register.RegisterRequest",
         "IsRequired": true
-      },
-      {
-        "Name": "role",
-        "Type": "System.String",
-        "IsRequired": false
       }
     ],
     "ReturnTypes": [
@@ -112,6 +139,22 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "TaskManagerProject.Controllers.AccountController",
+    "Method": "ResetPassword",
+    "RelativePath": "api/Account/reset-password",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "AplicationLayer.Dtos.Account.Password.Reset.ResetPasswordRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   },
   {
     "ContainingType": "TaskManagerProject.Controllers.AccountController",

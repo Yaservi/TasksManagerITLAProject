@@ -114,6 +114,9 @@ builder.Services.AddScoped<ICommonProcess<Tarea>, TareaRepositorio>();
 builder.Services.AddScoped<TaskService>();
 builder.Services.AddScoped<TaskHelper>();
 builder.Services.AddSignalR();
+builder.Services.Configure<EmailSetting>(builder.Configuration.GetSection("EmailSetting"));
+builder.Services.AddScoped<IEmailService, EmailService>();
+
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

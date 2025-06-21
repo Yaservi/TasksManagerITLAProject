@@ -882,11 +882,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\yaser\\Desktop\\Nueva carpeta (3)\\TasksManagerITLAProject\\AplicationLayer\\AplicationLayer.csproj",
+      "projectUniqueName": "C:\\Users\\yaser\\Desktop\\Nueva carpeta\\TasksManagerITLAProject\\AplicationLayer\\AplicationLayer.csproj",
       "projectName": "AplicationLayer",
-      "projectPath": "C:\\Users\\yaser\\Desktop\\Nueva carpeta (3)\\TasksManagerITLAProject\\AplicationLayer\\AplicationLayer.csproj",
+      "projectPath": "C:\\Users\\yaser\\Desktop\\Nueva carpeta\\TasksManagerITLAProject\\AplicationLayer\\AplicationLayer.csproj",
       "packagesPath": "C:\\Users\\yaser\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\yaser\\Desktop\\Nueva carpeta (3)\\TasksManagerITLAProject\\AplicationLayer\\obj\\",
+      "outputPath": "C:\\Users\\yaser\\Desktop\\Nueva carpeta\\TasksManagerITLAProject\\AplicationLayer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -907,8 +907,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\yaser\\Desktop\\Nueva carpeta (3)\\TasksManagerITLAProject\\DomainLayer\\DomainLayer.csproj": {
-              "projectPath": "C:\\Users\\yaser\\Desktop\\Nueva carpeta (3)\\TasksManagerITLAProject\\DomainLayer\\DomainLayer.csproj"
+            "C:\\Users\\yaser\\Desktop\\Nueva carpeta\\TasksManagerITLAProject\\DomainLayer\\DomainLayer.csproj": {
+              "projectPath": "C:\\Users\\yaser\\Desktop\\Nueva carpeta\\TasksManagerITLAProject\\DomainLayer\\DomainLayer.csproj"
             }
           }
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Gpb+2QKsl5o=",
+  "dgSpecHash": "Lo/oakzOV7M=",
   "success": true,
-  "projectFilePath": "C:\\Users\\yaser\\Desktop\\Nueva carpeta (3)\\TasksManagerITLAProject\\DomainLayer\\DomainLayer.csproj",
+  "projectFilePath": "C:\\Users\\yaser\\Desktop\\Nueva carpeta\\TasksManagerITLAProject\\DomainLayer\\DomainLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\yaser\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.15\\microsoft.entityframeworkcore.8.0.15.nupkg.sha512",
     "C:\\Users\\yaser\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.15\\microsoft.entityframeworkcore.abstractions.8.0.15.nupkg.sha512",
